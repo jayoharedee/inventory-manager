@@ -85,7 +85,7 @@ class Details extends Component {
           />
           <Form.Select
             label="Color"
-            options={classOptions}
+            options={colorOptions}
             placeholder="Color"
           />
           <Form.Input
