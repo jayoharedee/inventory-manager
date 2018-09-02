@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import {
   Container,
   // Divider,
   // Dropdown,
   // Grid,
   Header,
-  Image,
+  // Image,
   // List,
   // Menu,
   // Segment,

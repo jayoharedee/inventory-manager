@@ -5,15 +5,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom'
-import {
-  Form,
-  Container,
-  Grid,
-  Segment,
-  Message,
-  Icon,
-  Button,
-} from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 import Header from './components/TopNav/'
 import Dashboard from './components/Dashboard/'
@@ -21,7 +13,7 @@ import Inventory from './components/Inventory/'
 import Content from './components/Content/'
 import NotFound from './components/NotFound/'
 
-import './styles.css'
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   return (
