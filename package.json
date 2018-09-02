@@ -1,22 +1,35 @@
 {
-  "name": "sui-cms",
+  "name": "inventory-manager",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-router-dom": "4.3.1",
-    "react-scripts": "1.1.4",
-    "semantic-ui-css": "2.3.3",
-    "semantic-ui-react": "0.82.2"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayoharedee/inventory-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayoharedee/inventory-manager/issues"
+  },
+  "homepage": "https://github.com/jayoharedee/inventory-manager#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
