@@ -1,15 +1,9 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  // Container,
-  // Divider,
   Dropdown,
-  // Grid,
-  // Header,
   Image,
-  // List,
   Menu,
-  // Segment,
 } from 'semantic-ui-react'
 
 const TopNav = () => (
@@ -25,7 +19,7 @@ const TopNav = () => (
         CMS
       </Menu.Item>
       <Menu.Menu position="right">
-        <Menu.Item as="a">Dashboard</Menu.Item>
+        <Menu.Item as={Link} to="/">Dashboard</Menu.Item>
 
         <Dropdown item simple text="Inventory Management">
           <Dropdown.Menu>
